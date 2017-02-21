@@ -1,0 +1,25 @@
+#hovers {
+	width: 200px;
+	height: 200px;
+	border: 1px solid black;
+}
+
+#hovers:hover {
+	background-color: black;
+	color: white;
+	background-image: url(images/2_image.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+#hovers p {
+	text-align: center;
+	font-size: 30px;
+	/*next 5 lines of code make! position of the text inside of the hover where needed;0)
+more deatails http://caniuse.com/#feat=flexbox */
+	display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 150px;
+  height: 150px;
+}
